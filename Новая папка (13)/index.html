@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <title>Mars Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f5f5f5;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: white;
+      padding: 15px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .logo {
+      font-size: 22px;
+      font-weight: bold;
+      color: #003087;
+    }
+
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    .shop-title {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    .search-bar {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .search-bar input {
+      padding: 10px;
+      width: 250px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+
+    .search-bar button {
+      padding: 10px 15px;
+      background: #003087;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      margin-left: 5px;
+      cursor: pointer;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 20px 40px;
+    }
+
+    .product-card {
+      background: white;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .product-card img {
+      width: 80px;
+      height: 80px;
+      object-fit: contain;
+      margin-bottom: 10px;
+    }
+
+    .product-name {
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+
+    .product-price {
+      color: goldenrod;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 12px;
+      color: #777;
+      margin-top: 30px;
+      padding-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">MARS🪐</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Learning</a>
+    <a href="#" style="color: red;">Shop</a>
+    <button style="background: #f44336; color: white; padding: 8px 12px; border: none; border-radius: 5px;">+ Post yaratish</button>
+  </nav>
+</header>
+
+<div class="shop-title">
+  <h2>Magazin</h2>
+</div>
+
+<div class="search-bar">
+  <input type="text" placeholder="search...">
+  <button>click</button>
+</div>
+
+<div class="products">
+  <div class="product-card">
+    <img src="https://cdn-icons-png.flaticon.com/512/1048/1048953.png" alt="Mars Rug">
+    <div class="product-name">Mars Rug</div>
+    <div class="product-price">100 Coins</div>
+  </div>
+
+  <div class="product-card">
+    <img src="https://cdn-icons-png.flaticon.com/512/281/281764.png" alt="Keyboard Sticker">
+    <div class="product-name">Keyboard Sticker</div>
+    <div class="product-price">49 Coins</div>
+  </div>
+
+  <div class="product-card">
+    <img src="https://cdn-icons-png.flaticon.com/512/2920/2920323.png" alt="Smart Watch">
+    <div class="product-name">Smart Watch</div>
+    <div class="product-price">899 Coins</div>
+  </div>
+
+  <div class="product-card">
+    <img src="https://cdn-icons-png.flaticon.com/512/1261/1261163.png" alt="Wireless Keyboard">
+    <div class="product-name">Wireless Keyboard</div>
+    <div class="product-price">359 Coins</div>
+  </div>
+
+  <div class="product-card">
+    <img src="https://cdn-icons-png.flaticon.com/512/1041/1041916.png" alt="Mouse">
+    <div class="product-name">Mouse</div>
+    <div class="product-price">359 Coins</div>
+  </div>
+
+  <div class="product-card">
+    <img src="https://cdn-icons-png.flaticon.com/512/9131/9131529.png" alt="AirPods">
+    <div class="product-name">AirPods</div>
+    <div class="product-price">499 Coins</div>
+  </div>
+
+  <div class="product-card">
+    <img src="https://cdn-icons-png.flaticon.com/512/2907/2907419.png" alt="Powerbank">
+    <div class="product-name">Powerbank</div>
+    <div class="product-price">899 Coins</div>
+  </div>
